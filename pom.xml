@@ -96,6 +96,6 @@
     </site>
   </distributionManagement>
   <properties>
-    <org.springframework.version>5.2.22.RELEASE</org.springframework.version>
+    <org.springframework.version>7.0.2</org.springframework.version>
   </properties>
 </project>
