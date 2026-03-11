@@ -90,18 +90,16 @@
     <url>https://github.com/cyclopsgroup/gitcon</url>
   </scm>
   <distributionManagement>
-    <distributionManagement>
-        <snapshotRepository>
-        <id>github</id>
-        <name>GitHub jiaqi Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/jiaqi/gitcon</url>
-        </snapshotRepository>
-        <repository>
-        <id>github</id>
-        <name>GitHub jiaqi Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/jiaqi/gitcon</url>
-        </repository>
-    </distributionManagement>
+    <snapshotRepository>
+      <id>github</id>
+      <name>GitHub jiaqi Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/jiaqi/gitcon</url>
+    </snapshotRepository>
+    <repository>
+      <id>github</id>
+      <name>GitHub jiaqi Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/jiaqi/gitcon</url>
+    </repository>
   </distributionManagement>
   <properties>
     <org.springframework.version>7.0.5</org.springframework.version>
