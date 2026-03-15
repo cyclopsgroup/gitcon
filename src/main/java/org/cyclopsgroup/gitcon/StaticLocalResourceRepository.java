@@ -78,12 +78,16 @@ public class StaticLocalResourceRepository implements Closeable, LocalResourceRe
     return Resource.fromFile(new File(sourceDirectory + SystemUtils.FILE_SEPARATOR + filePath));
   }
 
-  /** @return The file source */
+  /**
+   * @return The file source
+   */
   public final FileSystemSource getSource() {
     return source;
   }
 
-  /** @return The actual working directory, the root of local repository */
+  /**
+   * @return The actual working directory, the root of local repository
+   */
   public final File getWorkingDirectory() {
     return workingDirectory;
   }
