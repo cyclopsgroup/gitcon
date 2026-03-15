@@ -133,7 +133,9 @@ public class GithubResourceRepository implements ResourceRepository {
     }
   }
 
-  /** @param branchName the branchName to set */
+  /**
+   * @param branchName the branchName to set
+   */
   public void setBranchName(String branchName) {
     this.branchName = branchName;
   }

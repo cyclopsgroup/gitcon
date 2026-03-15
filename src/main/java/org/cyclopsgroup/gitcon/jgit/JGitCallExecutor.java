@@ -82,7 +82,9 @@ abstract class JGitCallExecutor {
 
   private static final JGitCallExecutor DIRECT_INSTANCE = new Direct();
 
-  /** @return A no-op implementation that invokes calls directly */
+  /**
+   * @return A no-op implementation that invokes calls directly
+   */
   static JGitCallExecutor direct() {
     return DIRECT_INSTANCE;
   }
